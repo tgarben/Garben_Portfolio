@@ -137,3 +137,9 @@ a{
 .otherFooter{
     position: relative;
 }
+
+.worksLink{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
