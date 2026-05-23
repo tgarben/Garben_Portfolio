@@ -88,18 +88,20 @@
       width: 44px;
       height: 44px;
       border-radius: 50%;
-      background: var(--surface-raised);
-      border: 1px solid var(--border);
+      background: #fff;
+      border: 1px solid rgba(255,255,255,0.15);
       overflow: hidden;
       flex-shrink: 0;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 18px;
-      font-weight: 500;
-      color: var(--accent);
-      font-family: 'Instrument Serif', Georgia, serif;
-      letter-spacing: -0.5px;
+      padding: 4px;
+    }
+
+    .avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
     }
 
     h1 {
@@ -342,7 +344,7 @@
 
     <section class="intro">
       <div class="name-line">
-        <div class="avatar">T</div>
+        <div class="avatar"><img src="/img/apple-touch-icon.png" alt="Tyler Garben logo" /></div>
         <h1>Tyler Garben</h1>
       </div>
       <p class="tagline">
